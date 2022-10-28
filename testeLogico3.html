@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    
+<div class="container">
+
+<div class="primeiro-passo">
+    <H2>Développeur @JOARAUJOTEC</h2> 
+    <hr>
+        <h4>Teste Lógico de requisitos</h4>
+        <h3>Faça um algoritmo para ler o nome, idade, altura e peso de todos os 3 tripulantes da nave SpaceStylex. Ao
+                        final o programa deverá retornar o peso total dos tripulantes, o nome dos dois mais altos para ocuparem os
+                        primeiros assentos, a idade média da tripulação e o nome do ocupante com menor peso para ocupar o último
+                        assento..</h3>
+                        <hr>
+    <button onclick="go(1,2)">Iniciar Questionário</button> 
+</div>
+<div class="segundo-passo">
+
+    <label for="nome1">Informar nome do 1º tripulante:</label>
+    <input type="txt" name="nome1" id="nome1" placeholder="nome do 1º tripulante">
+    <label for="nome2">Informar nome do 2º tripulante:</label>
+    <input type="txt" name="nome2" id="nome2" placeholder="nome do 2º tripulante">
+    <label for="nome3">Informar nome do 3º tripulante:</label>
+    <input type="txt" name="nome3" id="nome3" placeholder="nome do 3º tripulante"><br><br>
+    <hr>
+    <label for="idade1">Informar a idade do 1º tripulante:</label>
+    <input type="number" name="idade1" id="idade1" placeholder="idade do 1º tripulante">
+    <label for="idade2">Informar idade do 2º tripulante:</label>
+    <input type="number" name="idade2" id="idade2" placeholder="idade do 2º tripulante">
+    <label for="idade3">Informar idade do 3º tripulante:</label>
+    <input type="number" name="idade3" id="idade3" placeholder="idade do 3º tripulante"><br><br>
+    <hr>
+    <label for="altura1">Informar a altura do 1º tripulante:</label>
+    <input type="number" name="altura1" id="altura1" placeholder="altura do 1º tripulante">
+    <label for="altura2">Informar altura do 2º tripulante:</label>
+    <input type="number" name="altura2" id="altura2" placeholder="altura do 2º tripulante">
+    <label for="altura3">Informar altura do 3º tripulante:</label>
+    <input type="number" name="altura3" id="altura3" placeholder="altura do 3º tripulante"><br><br>
+    <hr>
+    <label for="peso1">Informar peso do 1º tripulante:</label>
+    <input type="number" name="peso1" id="peso1" placeholder="peso do 1º tripulante">
+    <label for="peso2">Informar peso do 2º tripulante:</label>
+    <input type="number" name="peso2" id="peso2" placeholder="peso do 2º tripulante">
+    <label for="peso3">Informar peso do 3º tripulante:</label>
+    <input type="number" name="peso3" id="peso3" placeholder="altura do 3º tripulante">
+    
+    <hr>
+    <button onclick="verificar()">Verificar resultados dos requisitos</button>
+   
+</div>
+
+<div class="terceiro-passo">
+    <h1>Requisitos obtidos</h1>
+        <p>O peso total dos tripulantes é:</p>
+        <p id="totalPesos"></p>
+        <p>Nome dos dois tripulantes mais altos:</p>
+        <p id="nomePrimeiraAltura"></p>
+    <p id="primeiraAltura"></p>
+    <p id="nomeSegundaAltura"></p>
+    <p id="segundaAltura"></p>
+        <p>Idade média da idade da tripulação é de:</p>
+        <p id="idadeMedia"></p>
+        <p>O menor peso é:</p>
+        <p id="menorPeso"></h1> 
+    <p>do tripulante: </p>
+    <p id="nomeMenorPeso"></p>
+
+    <button onclick="go(3,2)">Refazer verificação</button>
+    <button onclick="go(3,1)">Encerrar</button>
+</div>
+
+</div>
+<script src="scripts.js"></script>
+</body>
+
+</html>
