@@ -1,5 +1,7 @@
-# Requisitos.js
-<h4>Teste Lógico de requisitos</h4>
-Faça um algoritmo para ler o nome, idade, altura e peso de todos os 3 tripulantes da nave SpaceStylex. Ao final o programa deverá retornar o peso total dos tripulantes, o nome dos dois mais altos para ocuparem os 
-primeiros assentos, a idade média da tripulação e o nome do ocupante com menor peso para ocupar o último assento..</h3>
-Onde conseguir aperfeiçoar meus conhecimentos em laços de repetição raciocínio lógico para desenvolver o algoritmo.
+# Requirements.js
+
+##Logical test of requirements
+
+Make an algorithm to read the name, age, height and weight of all 3 crew members of the SpaceStylex ship. At the end the program should return the total weight of the crew, the name of the two highest to occupy the 
+first seats, the average age of the crew and the name of the occupant with the least weight to occupy the last seat..
+Where to perfect my knowledge in repetition loops logical reasoning to develop the algorithm.
